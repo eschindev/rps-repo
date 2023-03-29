@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="script.js"></script>
+    <script>
+      window.onload = function() {
+        document.getElementById("wins").innerHTML = wins;
+        document.getElementById("losses").innerHTML = losses;
+        document.getElementById("ties").innerHTML = ties;
+      }
+    </script>
   </head>
   <body>
-
+    <section>
+      <h1>results:</h1>
+      <p>Wins: <span id="wins"></span></p>
+      <p>Losses: <span id="losses"></span></p>
+      <p>Ties: <span id="ties"></span></p>
+    </section>
   </body>
 </html>
