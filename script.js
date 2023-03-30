@@ -77,5 +77,5 @@ do {
 
 } while(playAgain)
 
-console.log(playerChoice);
+alert("GGWP! Thanks for playing!");
 
